@@ -1,10 +1,10 @@
 var config = {
-	apiKey: "AIzaSyCuUyJX3hDtUVe3t87fzWKSZV9QkjJREyA",
-	authDomain: "aegis-c7d5b.firebaseapp.com",
-	databaseURL: "https://aegis-c7d5b.firebaseio.com",
-	projectId: "aegis-c7d5b",
-	storageBucket: "aegis-c7d5b.appspot.com",
-	messagingSenderId: "703314974787"
+	apiKey: "replace with your key",
+	authDomain: "replace with your authDomain",
+	databaseURL: "replace with yourdatabase domain",
+	projectId: "replace with your project id",
+	storageBucket: "replace with your storagebucket",
+	messagingSenderId: "replace with your messagesender"
 };
 firebase.initializeApp(config);
 var database = firebase.database();
